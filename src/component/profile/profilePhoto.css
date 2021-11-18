@@ -1,0 +1,21 @@
+img {
+  width: 85%;
+  height: auto;
+}
+
+.photoDiv {
+  grid-column: 3/5;
+  grid-row: 1/4;
+  display: flex;
+  justify-content: flex-end;
+  animation: mymove 5s infinite;
+  animation-timing-function: linear;
+}
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
+}
